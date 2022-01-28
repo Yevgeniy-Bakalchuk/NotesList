@@ -1,0 +1,43 @@
+.notes_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    background: rgb(255, 249, 218);
+    padding: 15px;
+    min-height: 80px;
+  }
+  .notes_block:hover {
+    background: rgb(243, 202, 202);
+    border-radius: 6px;
+  }
+  .button_delete {
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    color: #fff;
+  }
+  .button_status {
+    background-color: rgb(155, 80, 46);
+    border-radius: 5px;
+    color: #fff;
+  }
+  .button_edit {
+    background-color: rgb(8, 107, 36);
+    border-radius: 5px;
+    color: #fff;
+  }
+  .button_save {
+    background-color: rgb(242, 255, 159);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+  }
+  .closeItem {
+    color: grey;
+    text-decoration: line-through;
+  }
+  .deleteSelected {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
